@@ -1,9 +1,6 @@
-import React, { ReactNode } from 'react';
-type PageAllProps = {
-  children: ReactNode;
-};
+import typePropsPageAll from '../../../types/typePropsPageAll';
 
-function PageAll(props: PageAllProps) {
+function PageAll(props: typePropsPageAll) {
   return (
     <div className='all'>
       {props.children}

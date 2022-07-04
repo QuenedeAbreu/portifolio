@@ -6,6 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'top': "url('./assets/img/bg.jpg')",
+      },
+      fontFamily: {
+        'overpass': ['Overpass', 'sans-serif'],
+        'oswald': ['Oswald', 'sans-serif'],
+      }
     },
   },
   plugins: [],
