@@ -12,6 +12,9 @@ module.exports = {
       fontFamily: {
         'overpass': ['Overpass', 'sans-serif'],
         'oswald': ['Oswald', 'sans-serif'],
+      },
+      colors: {
+        'grey-opacity': '#838383',
       }
     },
   },
