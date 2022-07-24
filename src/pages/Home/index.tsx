@@ -88,8 +88,10 @@ function Page() {
           <div className="sm:w-1/5 w-1/5"></div>
 
         </div>
-        <div className="sm:w-full sm:h-screen bg-[#1c1c1c] flex justify-center items-center flex-col">
-          <h1 className="text-white">PORTFOLIO</h1>
+        <div className="sm:w-full sm:h-screen  bg-gradient-to-t from-[#111111] flex justify-center items-center flex-col">
+          <div className="bg-[#09135F] skew-y-12">
+            <h1 className="text-white font-oswald sm:font-extrabold sm:text-6xl -skew-y-12 uppercase">Portfólio</h1>
+          </div>
           <div className="sm:w-10/12 sm:h-4/6  flex justify-center items-center ">
 
             <CarouselSlider />
