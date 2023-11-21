@@ -88,7 +88,55 @@ function Page() {
           <div className="sm:w-1/5 w-1/5"></div>
 
         </div>
-        <div className="sm:w-full sm:h-screen  bg-gradient-to-t from-[#111111] flex justify-center items-center flex-col">
+        {/* Section about */}
+        <div className="sm:w-full sm:h-screen flex justify-center items-center flex-col">
+
+          <div className=" w-9/12">
+
+            <h1 className="sm:text-center mt-11 uppercase text-white font-oswald sm:font-extrabold sm:text-4xl border-b-2 border-indigo-500/100 sm:pb-6 sm:mb-8" >About</h1>
+            <div className="sm:w-full sm:flex " >
+              <p className="sm:w-9/12 text-white text-justify sm:font-light mr-6">
+                I'm a passionate professional in the field of Information Systems,
+                with a solid background in technology and informatics. During my academic journey,
+                I've gained extensive knowledge in programming, database systems, and project management.
+                What sets me apart is my ability to simplify complex technical concepts and collaborate
+                effectively in multidisciplinary teams. I have a natural talent for problem-solving,
+                always seeking innovative ways to optimize processes and enhance the efficiency of
+                information systems. My passion for innovation and my commitment to staying updated
+                with the latest trends make me a valuable and promising professional in the field of
+                Information Systems, ready to tackle challenges and contribute to the continuous
+                advancement of information technology.
+              </p>
+
+              <div className="sm:w-3/12 opacity-60 rounded-full border-2 border-indigo-500/100">
+                <img src="https://github.com/quenedeabreu.png" />
+              </div>
+            </div>
+          </div>
+
+        </div>
+        {/*End Section about */}
+        {/* Section Skills  */}
+        <div className="sm:w-full sm:h-screen flex justify-center items-center flex-col">
+
+          <div className=" w-9/12">
+
+            <h1 className="sm:text-center mt-11 uppercase text-white font-oswald sm:font-extrabold sm:text-4xl border-b-2 border-indigo-500/100 sm:pb-6 sm:mb-8" >
+              skills</h1>
+            <p className="text-white sm:text-center ">Possuo conhecimentos e já desenvolvi projetos com essas tecnologias!</p>
+            <div className="sm:w-full sm:flex bg-white" >
+              ..
+            </div>
+          </div>
+
+        </div>
+
+
+
+        {/* End Section Skills  */}
+
+        {/* start Portifolio */}
+        {/* <div className="sm:w-full sm:h-screen  bg-gradient-to-t from-[#111111] flex justify-center items-center flex-col">
           <div className="bg-[#09135F] skew-y-12">
             <h1 className="text-white font-oswald sm:font-extrabold sm:text-6xl -skew-y-12 uppercase">Portfólio</h1>
           </div>
@@ -96,7 +144,8 @@ function Page() {
 
             <CarouselSlider />
           </div>
-        </div>
+        </div> */}
+        {/* End Portifolio   */}
       </div>
     </PageAll>
   )
