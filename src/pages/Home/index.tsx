@@ -95,7 +95,7 @@ function Page() {
 
             <h1 className="sm:text-center mt-11 uppercase text-white font-oswald sm:font-extrabold sm:text-4xl border-b-2 border-indigo-500/100 sm:pb-6 sm:mb-8" >About</h1>
             <div className="sm:w-full sm:flex " >
-              <p className="sm:w-9/12 text-white text-justify sm:font-light mr-6">
+              <p className="sm:w-9/12 text-white text-justify sm:font-light sm:mr-6">
                 I'm a passionate professional in the field of Information Systems,
                 with a solid background in technology and informatics. During my academic journey,
                 I've gained extensive knowledge in programming, database systems, and project management.
@@ -108,8 +108,8 @@ function Page() {
                 advancement of information technology.
               </p>
 
-              <div className="sm:w-3/12 opacity-60 rounded-full border-2 border-indigo-500/100">
-                <img src="https://github.com/quenedeabreu.png" />
+              <div className="sm:w-3/12 opacity-60 rounded-full  flex items-center">
+                <img src="https://github.com/quenedeabreu.png" className="border-2 border-indigo-500/100 rounded-full sm:max-w-[200px]" />
               </div>
             </div>
           </div>
@@ -124,7 +124,7 @@ function Page() {
             <h1 className="sm:text-center mt-11 uppercase text-white font-oswald sm:font-extrabold sm:text-4xl border-b-2 border-indigo-500/100 sm:pb-6 sm:mb-8" >
               skills</h1>
             <p className="text-white sm:text-center ">Possuo conhecimentos e já desenvolvi projetos com essas tecnologias!</p>
-            <div className="sm:w-full sm:flex bg-white" >
+            <div className="sm:w-full sm:flex " >
               ..
             </div>
           </div>
